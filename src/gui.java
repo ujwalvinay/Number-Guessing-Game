@@ -9,9 +9,10 @@ import java.awt.event.ActionListener;
 class gui extends JFrame implements ActionListener
 {
 	Container container = getContentPane();
-	JLabel user =new JLabel("Enter your Choice : ");
+	JLabel user =new JLabel("Enter Choice : ");
 	JLabel computer = new JLabel("computer choice : ");
 	JTextField user_enter = new JTextField();
+	JLabel comp_enter = new JLabel();
 	JButton Enter = new JButton("Enter");
 	
 	String nameData,regData,markData;
@@ -20,7 +21,7 @@ class gui extends JFrame implements ActionListener
 	{
 		setTitle("Student Entry");
 		setVisible(true);
-		setBounds(10,10,400,600);
+		setBounds(10,10,600,400);
 		setDefaultCloseOperation(3);
 		setResizable(false);
 		setLayoutManager();
@@ -33,10 +34,11 @@ class gui extends JFrame implements ActionListener
 	}
 	public void setLocationAndSize()
 	{
-		user.setBounds(50,150,100,30);
-		computer.setBounds(50,220,100,30);
-		user_enter.setBounds(150,150,150,30);
-		Enter.setBounds(20,370,150,30);
+		user.setBounds(50,100,150,30);
+		computer.setBounds(50,150,150,30);
+		comp_enter.setBounds(150,150,150,30);
+		user_enter.setBounds(150,100,80,30);
+		Enter.setBounds(20,200,150,30);
 		
 		Enter.addActionListener(new ActionListener() 
 		{
