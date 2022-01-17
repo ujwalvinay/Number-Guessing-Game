@@ -12,9 +12,8 @@ class gui extends JFrame implements ActionListener
 	Container container = getContentPane();
 	JLabel banner =new JLabel("NUMBER GUESSING GAME");
 	JLabel user =new JLabel("Enter Choice : ");
-	JLabel computer = new JLabel("computer choice : ");
+	JLabel computer = new JLabel("Enter a number from 1-25");
 	JTextField user_enter = new JTextField();
-	JLabel comp_enter = new JLabel();
 	JButton Enter = new JButton("Enter");
 	
 	String nameData,regData,markData;
@@ -23,7 +22,7 @@ class gui extends JFrame implements ActionListener
 	{
 		setTitle("Main Frame");
 		setVisible(true);
-		setBounds(10,10,600,400);
+		setBounds(400,200,600,400);
 		setDefaultCloseOperation(3);
 		setResizable(false);
 		setLayoutManager();
@@ -38,8 +37,7 @@ class gui extends JFrame implements ActionListener
 	{
 		banner.setBounds(40,30,500,30);
 		user.setBounds(50,130,300,30);
-		computer.setBounds(50,180,300,30);
-		comp_enter.setBounds(300,150,150,30);
+		computer.setBounds(100,180,300,30);
 		user_enter.setBounds(300,130,100,40);
 		Enter.setBounds(150,250,150,30);
 	
@@ -47,9 +45,7 @@ class gui extends JFrame implements ActionListener
 		
 		user.setFont(new Font("Monospaced", Font.PLAIN, 25));
 		
-		computer.setFont(new Font("Monospaced", Font.PLAIN, 25));
-		
-		comp_enter.setFont(new Font("Dialog", Font.BOLD, 25));
+		computer.setFont(new Font("Monospaced", Font.BOLD, 20));
 		
 		Enter.setFont(new Font("SansSerif", Font.BOLD, 25));
 		
@@ -59,6 +55,7 @@ class gui extends JFrame implements ActionListener
 				{
 				 String userData = user_enter.getText();
 				 rand.numbergen();
+				 rand.userin(userData);
 				
 				}
 		});;
