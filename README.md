@@ -6,3 +6,17 @@
   </a>
 </div>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
+
+Numbre guessing game in Java using random package. 
+The computer will generate a number and the user have to guess it.
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
