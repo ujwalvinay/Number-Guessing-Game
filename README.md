@@ -18,5 +18,13 @@ The computer will generate a number and the user have to guess it.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Built With
+These are the things used to develop this Bot
+
+* [Discord API](https://discord.com/developers/docs/intro)
+* [Open weather API](https://openweathermap.org/api)
+* [Python3](https://www.python.org/download/releases/3.0/)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
