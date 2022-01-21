@@ -38,14 +38,16 @@ Download JAVA
   ```sh
   sudo apt install default-jre
   ```
-  *JDK
+* JDK
   ```sh
   sudo apt install default-jdk
   ```
+Import the Random package in JAVA
   *Random package
   ```sh
   import java.util.Random
   ```
+Import the Swing package for gui
   *Swing
   ```sh
   import java.Swing.*
