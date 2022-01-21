@@ -21,9 +21,9 @@ The computer will generate a number and the user have to guess it.
 ### Built With
 These are the things used to develop this Bot
 
-* [Discord API](https://discord.com/developers/docs/intro)
-* [Open weather API](https://openweathermap.org/api)
-* [Python3](https://www.python.org/download/releases/3.0/)
+* [Random package](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html)
+* [Swing](https://docs.oracle.com/javase/tutorial/uiswing/)
+* [Java](https://www.java.com/en/)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
