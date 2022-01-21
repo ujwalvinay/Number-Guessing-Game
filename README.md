@@ -27,4 +27,26 @@ These are the things used to develop this Bot
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
+## Getting Started
 
+This is a simple game in Java. We generate a random number using the random package in JAVA
+Follow these instructions to get started
+### Prerequisites
+
+Download JAVA
+* JRE
+  ```sh
+  sudo apt install default-jre
+  ```
+  *JDK
+  ```sh
+  sudo apt install default-jdk
+  ```
+  *Random package
+  ```sh
+  import java.util.Random
+  ```
+  *Swing
+  ```sh
+  import java.Swing.*
+  ```
