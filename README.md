@@ -68,3 +68,12 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+## Contact
+
+Ujwal Vinay - [@vinayujwal](https://twitter.com/vinayujwal) - ujwalvinay@ieee.org
+
+Project Link: [https://github.com/ujwalvinay/WeatherBot](https://github.com/ujwalvinay/WeatherBot)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
